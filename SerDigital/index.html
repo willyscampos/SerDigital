@@ -19,9 +19,11 @@ hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </scri
     <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
     <!-- end google fonts -->
     <script src="cordova.js" type="text/javascript"></script>
+
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <!--nav-->
     <script src="js/jquery.min.js"></script>
+    <script src="js/youtube.js" type="text/javascript"></script>
     <script>
         $(function () {
             var pull = $('#pull');
@@ -108,8 +110,8 @@ hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </scri
                     </div>
                     <div class="content">
                         <h2>Posso Ajudar?</h2>
-                        <div style="display: block; margin-left: 10px; margin-right: auto">                            
-                            <iframe width="300" height="150" src="http://www.youtube.com/embed/V9rHBp8wE8w" frameborder="0" allowfullscreen></iframe>
+                        <div style="display: block; margin-left: 3px; margin-right: auto">
+                            <iframe id="player" width="300" height="150" src="http://www.youtube.com/embed/V9rHBp8wE8w" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -125,50 +127,53 @@ hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </scri
         </div>
     </div>
     <!-- start foorter -->
-        <!-- start foorter -->
-<div class="footer_bg">
-<div class="wrap">
-<div class="wrapper">
-	<div class="footer">
-		<div class="span_1_of_3">
-			<h3>Entre em Contato</h3>
-			<div class="footer_grid">
-				<div class="xx">
-					<img src="images/logo-educare.png" alt="" />
-				</div>
-				<div class="foot_text">
-					<p>Rio de Janeiro, RJ</p>					
-					<p>UNESA</p>
-				</div>	
-				<div class="clear"></div>	
-			</div>
-			<div class="footer_grid">
-				
-			</div>
-			
-			<div class="foot_nav">
-				<ul>
-					<li><a href="#"><img src="images/soc_icon1.png" alt="" /></a></li>
-					<li><a href="#"><img src="images/soc_icon2.png" alt="" /></a></li>
-					<li><a href="#"><img src="images/soc_icon3.png" alt="" /></a></li>
-					<li><a href="#"><img src="images/soc_icon4.png" alt="" /></a></li>
-					<div class="clear"></div>
-				</ul>
-				
-			</div>
-		</div>
-		<div class="clear"></div>
-	</div>
-</div>
-</div>
-</div>
-  <!-- start footer copy -->
-<div class="wrap">
-<div class="wrapper">
-	<div class="copy">	
-		<p class="w3-link">Copyright © Willys Campos</p>
-	</div>
-</div>
-</div>
+    <!-- start foorter -->
+    <div class="footer_bg">
+        <div class="wrap">
+            <div class="wrapper">
+                <div class="footer">
+                    <div class="span_1_of_3">
+                        <h3>Entre em Contato</h3>
+                        <div class="footer_grid">
+                            <div class="xx">
+                                <img src="images/logo-educare.png" alt="" />
+                            </div>
+                            <div class="foot_text">
+                                <p>Rio de Janeiro, RJ</p>
+                                <p>UNESA</p>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="footer_grid">
+                        </div>
+
+                        <div class="foot_nav">
+                            <ul>
+                                <li><a href="#">
+                                    <img src="images/soc_icon1.png" alt="" /></a></li>
+                                <li><a href="#">
+                                    <img src="images/soc_icon2.png" alt="" /></a></li>
+                                <li><a href="#">
+                                    <img src="images/soc_icon3.png" alt="" /></a></li>
+                                <li><a href="#">
+                                    <img src="images/soc_icon4.png" alt="" /></a></li>
+                                <div class="clear"></div>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- start footer copy -->
+    <div class="wrap">
+        <div class="wrapper">
+            <div class="copy">
+                <p class="w3-link">Copyright © Willys Campos</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
