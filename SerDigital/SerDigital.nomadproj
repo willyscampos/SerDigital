@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <CompiledOutputPath>distrib\</CompiledOutputPath>
+    <OutputPath>bin\$(Configuration)</OutputPath>
+    <CordovaVersion>3.0</CordovaVersion>
+    <BuildCloudVersion>2.0</BuildCloudVersion>
+    <Name>SerDigital</Name>
+    <RootNamespace>SerDigital</RootNamespace>
+    <ProjectGuid>{a4a619af-0fde-4659-a06b-750373a37832}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="about.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="blog.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="contact.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\style.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="details.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\banner.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\call.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\cog_icon.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\det_pic.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\facebook_icon.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\footer_top.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\fountain.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\fountain_h.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\gallery_icon.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\home.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\inclusao_digital.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\lightbox-btn-close.gif">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\lightbox-ico-loading.gif">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\logo-educare.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\logo.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\mail.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\mail_h.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\nav-icon.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic1.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic10.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic11.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic2.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic3.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic4.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic5.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic6.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic7.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic8.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic9.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\soc_icon1.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\soc_icon2.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\soc_icon3.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\soc_icon4.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\tools_icon.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\twitter.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\user_icon.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\wordpress_icon.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="index.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="index2.html" />
+    <Content Include="cordova.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\choosephoto.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\jquery.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="portfolio.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="scripts\jquery-1.6.4.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="scripts\jquery.mobile-1.2.0.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="style\jquery.mobile-1.2.0.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\android\icon-hdpi.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\android\icon-ldpi.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\android\icon-mdpi.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\android\icon-xhdpi.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\android\splash-hdpi.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\android\splash-ldpi.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\android\splash-mdpi.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\android\splash-xhdpi.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\ios\Default%402x~iphone.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\ios\Default-568h%402x~iphone.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\ios\Default-Landscape~ipad.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\ios\Default-Portrait~ipad.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\ios\Default~iphone.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\ios\icon%402x.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\ios\icon-72%402x.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\ios\icon-72.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\ios\icon.png">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="icons\" />
+    <Folder Include="icons\android\" />
+    <Folder Include="icons\ios\" />
+    <Folder Include="images" />
+    <Folder Include="css" />
+    <Folder Include="js" />
+    <Folder Include="style" />
+    <Folder Include="scripts" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />
+  <Target Name="ResolveReferences" />
+  <Target Name="CoreCompile" />
+  <Target Name="CreateManifestResourceNames" />
+  <Target Name="CopyFilesToOutputDirectory">
+    <ItemGroup>
+      <AbsoluteContentDestinations Include="$(OutputPath)%(Content.Identity)" />
+    </ItemGroup>
+    <Copy SourceFiles="@(Content)" DestinationFiles="@(AbsoluteContentDestinations)" />
+  </Target>
+</Project>
